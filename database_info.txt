@@ -1,0 +1,15 @@
+database name= todo
+table name = items
+   columns=5
+   column names:id,name,user,done,created 
+   id : id=1 ,    type= int(11), attributes = unsigned, null= no, extra= autoincrement
+   name :id=2 ,   type= text,       null= yes
+   user :id=3 ,   type= int(11),    null= yes
+   done :id=4 ,   type= tinyint(1), null= yes
+   created :id=5, type= datetime,   null= yes 
+
+table name  = users
+   columns = 2
+   id :     id=1 ,    type= int(11), attributes = unsigned, null= no, extra= autoincrement
+   username:id=2 ,    type=varchar(20), null=yes
+   
